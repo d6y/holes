@@ -17,7 +17,7 @@ object Experiment {
 // [error] Hole found which needs to be filled with type: C
 ```
 
-However that doesn't work (see _main.scala_) for examples of what does and doesn't work so far).
+However that doesn't work (see _main.scala_ for examples of what does and doesn't work so far).
 
 Currently you get better help just using:
 
