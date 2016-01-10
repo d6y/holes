@@ -17,14 +17,15 @@ object Experiment {
 // [error] Hole found which needs to be filled with type: C
 ```
 
-However that doesn't currently work (see main.scala for examples of what does and doesn't work so far).
+However that doesn't work (see _main.scala) for examples of what does and doesn't work so far).
 
 Currently you get better help just using:
 
 ```
 object hole
 
-def compose[A,B,C](f: B=>C, g: A=>B): A=>C = hole
+def compose[A,B,C](f: B=>C, g: A=>B): A=>C =
+  a => hole
 ```
 
 ...instead of the hole macro included in this repository.
